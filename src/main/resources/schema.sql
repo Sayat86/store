@@ -1,3 +1,6 @@
+drop table if exists products;
+drop table if exists categories;
+
 create table categories
 (
     id serial primary key,
